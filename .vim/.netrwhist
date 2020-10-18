@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/project/eyedi/00.e5908/workspace/src/zos/imish'
+let g:netrw_dirhist_2='/project/eyedi/00.e5908/workspace/src/zapp/zcmds'
+let g:netrw_dirhist_3='/project/eyedi/00.e5908/workspace/src/legacy/util/bist'
+let g:netrw_dirhist_4='/project/eyedi/00.e5908/workspace/src/legacy/dhcp-4.1.1b1'
+let g:netrw_dirhist_5='/project/eyedi/00.e5908/workspace/src/legacy/dhcp-4.1.1b1/dhcpctl'
+let g:netrw_dirhist_6='/project/eyedi/00.e5908/workspace/src/legacy/util/bist'
+let g:netrw_dirhist_7='/prj2s/eyedi/01.e5900-netconf-1571/workspace/src/zos/imi/smi'
