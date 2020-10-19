@@ -1,13 +1,13 @@
 # Setup fzf
 # ---------
-if [[ ! "$PATH" == */project/eyedi/.fzf/bin* ]]; then
-  export PATH="${PATH:+${PATH}:}/project/eyedi/.fzf/bin"
+if [[ ! "$PATH" == */home/eyedi/.fzf/bin* ]]; then
+  export PATH="${PATH:+${PATH}:}/home/eyedi/.fzf/bin"
 fi
 
 # Auto-completion
 # ---------------
-[[ $- == *i* ]] && source "/project/eyedi/.fzf/shell/completion.bash" 2> /dev/null
+[[ $- == *i* ]] && source "/home/eyedi/.fzf/shell/completion.bash" 2> /dev/null
 
 # Key bindings
 # ------------
-source "/project/eyedi/.fzf/shell/key-bindings.bash"
+source "/home/eyedi/.fzf/shell/key-bindings.bash"
