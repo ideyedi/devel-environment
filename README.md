@@ -1,5 +1,6 @@
 # devel-environment
 
+> Need to install submodule
 1. install fzf
 - git clone https://github.com/junegunn/fzf.git ~/.fzf
 - ~/.fzf/install   - run install binary
