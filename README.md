@@ -2,9 +2,9 @@
 
 > git remote branch set-up   
 1. git init 
-2. git remote add <remote-name> https://github.com/gdregas0/devel-environment.git   
+2. git remote add (remote-name) https://github.com/gdregas0/devel-environment.git   
 3. git remote update   
-4. git checkout -b <local-name> <remote-name>    
+4. git checkout -b (local-name) (remote-name)    
 
 > Need to install submodule   
 1. install fzf
