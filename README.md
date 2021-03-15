@@ -1,10 +1,13 @@
 # devel-environment    
 
-> git remote branch set-up   
+> git remote branch set-up
+>> eyedi-env is remote branch name
+
 1. git init 
-2. git remote add (remote-name) https://github.com/gdregas0/devel-environment.git   
+2. git remote add eyedi-env https://github.com/gdregas0/devel-environment.git   
 3. git remote update   
-4. git checkout -b (local-name) (remote-name)    
+4. git commit -m "Initialize message"
+5. git checkout eyedi-env -b eyedi-env/master   or    git checkout -t eyedi-env/master
 
 > Need to install submodule   
 1. install fzf
