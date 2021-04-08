@@ -15,11 +15,12 @@ set shiftwidth=4
 set softtabstop=4
 set history=0
 set noexpandtab
+set autoindent
+set smartindent
 set ai
 set si
 set showmatch
-set autoindent
-set smartindent
+set tag=tags,./tags,../tags,../../tags,../../../tags,../../../../tags,../../../../../tags,../../../../../../tags
 set wrap
 set nowrapscan
 set nobackup
@@ -32,3 +33,10 @@ set incsearch
 set laststatus=2
 set backspace=eol,start,indent
 set t_Co=256
+
+" abstract 
+ab prosd    printk ( KERN_DEBUG "[%s:%d][eyedi]\n", __func__, __LINE__ );<LEFT><ESC>
+ab sysosd   syslog ( LOG_LOCAL7 \| LOG_INFO, "[%s:%d]\n", __func__, __LINE__ );<LEFT><ESC>
+
+abbr kotlin kotlinc -include-runtime
+

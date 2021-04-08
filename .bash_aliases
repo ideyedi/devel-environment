@@ -3,8 +3,9 @@
 alias light="ssh -i /Users/eunseokji/Workspaces/eyedi-instance01.pem ubuntu@13.124.87.78"
 alias pgrep='find . -name "*.py" | xargs grep --color  -n $1'
 
-alias   cta='ctags -R'
-alias   chgrep='find . -name "*.[hcC]" |xargs grep --color -n $1'
+alias exph='explorer.exe .' 
+alias cta='ctags -R'
+alias chgrep='find . -name "*.[hcC]" |xargs grep --color -n $1'
 
 # Alias
 alias rm='rm -i'
