@@ -1,6 +1,6 @@
 # ~/.bash_aliases
 # eyedi's Alias
-alias light="ssh -i /home/eyedi/workspaces/eyedi-instance01.pem ubuntu@13.124.87.78"
+alias light="ssh -i /Users/eunseokji/Workspaces/eyedi-instance01.pem ubuntu@13.124.87.78"
 alias pgrep='find . -name "*.py" | xargs grep --color  -n $1'
 
 alias   cta='ctags -R'
@@ -15,7 +15,6 @@ alias   kor='export LANG=ko_KR.eucKR'
 alias   eng='export LANG=C'
 
 alias   so='source ~/.bashrc'
-alias   ls='ls -F --color=auto'
 alias	ll='ls -ailtrh'
 alias   cp='cp -i'
 alias   rm='rm -i'
