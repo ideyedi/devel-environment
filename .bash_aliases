@@ -1,6 +1,6 @@
 # ~/.bash_aliases
 # eyedi's Alias
-alias light="ssh -i /Users/eunseokji/Workspaces/eyedi-instance01.pem ubuntu@13.124.87.78"
+alias light="ssh -i /Users/eunseokji/Workspaces/.eyedi-instance01.pem ubuntu@13.124.87.78"
 alias pgrep='find . -name "*.py" | xargs grep --color  -n $1'
 
 alias exph='explorer.exe .' 
