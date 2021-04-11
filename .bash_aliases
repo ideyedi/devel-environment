@@ -1,21 +1,19 @@
 # ~/.bash_aliases
 # eyedi's Alias
-alias light="ssh -i /Users/eunseokji/Workspaces/.eyedi-instance01.pem ubuntu@13.124.87.78"
-alias pgrep='find . -name "*.py" | xargs grep --color  -n $1'
 
-alias exph='explorer.exe .' 
+# Access to AWS alias
+alias light="ssh -i /Users/eunseokji/Workspaces/.eyedi-instance01.pem ubuntu@13.124.87.78"
+
+# open exeplorer.exe in Window WSL2 system
+# alias exph='explorer.exe .' 
+
 alias cta='ctags -R'
-alias chgrep='find . -name "*.[hcC]" |xargs grep --color -n $1'
 
 # Alias
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
-alias   kor='export LANG=ko_KR.eucKR'
-alias   eng='export LANG=C'
-
-alias   so='source ~/.bashrc'
 alias	ll='ls -ailtrh'
 alias   cp='cp -i'
 alias   rm='rm -i'
@@ -30,6 +28,13 @@ alias   .......='cd ../../../../../..'
 
 alias	cta='ctags -R'
 alias	pinstall='vim +PluginInstall +qall'
+
+# Run local jeykll ruby server
+alias   rungitpage='arch -x86_64 bundle exec jekyll serve'
+
+# *.py grep
+alias	pgrep='find . -name "*.py" | xargs grep --color  -n $1'
+alias	chgrep='find . -name "*.[hcC]" |xargs grep --color -n $1'
 
 alias   nagrep='find . \( -name "*.[hcCSs]" -o -name "Makefile" -o -name "Kconfig" -o -name "*.sh" \) |xargs grep --color -n $1'
 alias   hgrep='find . -name "*.h" | xargs grep --color  -n $1'
