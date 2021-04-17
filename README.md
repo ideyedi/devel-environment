@@ -7,7 +7,8 @@
 2. git remote add origin https://github.com/gdregas0/devel-environment.git   
 3. git remote update   
 4. git commit -m "Initialize message"
-5. git checkout origin -b origin/main
+5. git fetch --all
+6. git checkout -b main origin/main
 
 > Need to install submodule   
 1. install fzf
