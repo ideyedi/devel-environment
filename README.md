@@ -9,6 +9,8 @@
 4. git commit -m "Initialize message"
 5. git fetch --all
 6. git checkout -b main origin/main
+7. chsh -s $(which zsh)
+8. sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 > Need to install submodule   
 1. install fzf
