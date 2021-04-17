@@ -20,6 +20,3 @@
 
 2. git clone gruvbox
 - git clone https://github.com/morhetz/gruvbox.git ~/.vim/pack/default/start/gruvbox
-
-3. git clone kotlin-vim
-- git clone https://github.com/udalov/kotlin-vim.git ~/.vim/pack/default/start/kotlin-vim
