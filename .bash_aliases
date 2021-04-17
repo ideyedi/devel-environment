@@ -2,7 +2,10 @@
 # eyedi's Alias
 
 # Access to AWS alias
-alias light="ssh -i /Users/eunseokji/Workspaces/.eyedi-instance01.pem ubuntu@13.124.87.78"
+#alias light="ssh -i /Users/eunseokji/Workspaces/.eyedi-instance01.pem ubuntu@13.124.87.78"
+
+# access to GCP(Google Cloud Platform)
+alias googlecp="ssh -i ~/.ssh/eyedi-instance gdregas18@35.233.179.53"
 
 # open exeplorer.exe in Window WSL2 system
 # alias exph='explorer.exe .' 

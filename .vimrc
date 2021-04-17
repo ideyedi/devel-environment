@@ -10,13 +10,14 @@ highlight Normal ctermbg=None
 " general vimrc set
 set nocompatible
 set bs=2
-set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set history=0
-set noexpandtab
-set autoindent
+
 set smartindent
+set expandtab
+set autoindent
+
 set ai
 set si
 set showmatch
