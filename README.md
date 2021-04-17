@@ -11,6 +11,7 @@
 6. git checkout -b main origin/main
 7. chsh -s $(which zsh)
 8. sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+9. git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 > Need to install submodule   
 1. install fzf
