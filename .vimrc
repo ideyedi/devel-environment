@@ -12,6 +12,7 @@ set nocompatible
 set bs=2
 set shiftwidth=4
 set softtabstop=4
+set tabstop=4
 set history=0
 
 set smartindent
