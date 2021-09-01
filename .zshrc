@@ -11,8 +11,12 @@ fi
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# ,pyenv path export 
-export PATH=$HOME/.pyenv/bin:$PATH
+# pyenv, pyenv-virtualenv path parameter
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/shims:$PATH"
+
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
@@ -137,7 +141,3 @@ if [ -f ~/.bash_ubiquoss ]; then
     . ~/.bash_ubiquoss
 fi
 
-# move local dir 
-cd ~/
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
