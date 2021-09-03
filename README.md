@@ -9,7 +9,9 @@
 4. git commit -m "Initialize message"
 5. git fetch --all
 6. git checkout -b main origin/main
-7. sh -s $(which zsh)
+7. chsh -s $(which zsh)
+- Change shell command
+
 8. sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 9. git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
