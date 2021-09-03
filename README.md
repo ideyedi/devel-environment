@@ -4,7 +4,7 @@
 >> eyedi-env is remote branch name
 
 1. git init 
-2. git remote add origin https://github.com/gdregas0/devel-environment.git   
+2. git remote add origin https://github.com/ideyedi/devel-environment.git   
 3. git remote update   
 4. git commit -m "Initialize message"
 5. git fetch --all
