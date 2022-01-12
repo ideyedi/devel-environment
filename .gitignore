@@ -1,1 +1,33 @@
+# Mac Default directory
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+
+# ideyedi Workspace
+Workspaces
+
+# zsh cache
+.zprofile
+.zsh_history
+.zsh_sessions
+
+# python cache
 .ipynb_checkpoints
+.python_history
+
+# penv config
+.pyenv
+
+# System hidden file
+.ssh
+.m2
+.config
+.bundle
+.DS_Store
+.cache
