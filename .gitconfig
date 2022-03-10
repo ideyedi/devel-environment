@@ -4,8 +4,8 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = ideyedi
-	email = gdregas18@gmail.com
+	name = esji
+	email = esji@wemakeprice.com
 [core]
 	editor = /opt/homebrew/bin/vim
 [pull]
