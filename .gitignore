@@ -12,6 +12,10 @@ Public
 # ideyedi Workspace
 Workspaces
 
+# vim swap cache
+*.swp
+*.swo
+
 # zsh cache
 .zprofile
 .zsh_history
@@ -23,6 +27,7 @@ Workspaces
 
 # penv config
 .pyenv
+.ipython
 
 # System hidden file
 .ssh
