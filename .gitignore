@@ -65,3 +65,5 @@ Workspaces
 
 .zcompdump-*
 .zshrc.pre-oh-my-zsh
+
+.labelImgSettings.pkl
