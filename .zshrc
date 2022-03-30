@@ -150,4 +150,3 @@ fi
 if [ -f ~/.bash_ubiquoss ]; then
     . ~/.bash_ubiquoss
 fi
-
