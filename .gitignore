@@ -1,3 +1,10 @@
+# WSL default directory
+.git-credentials
+.oh-my-zsh/
+.vim/
+.viminfo
+.zcompdump-*
+
 # Mac Default directory
 Applications
 Desktop
