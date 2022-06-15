@@ -6,10 +6,8 @@
 1. git init 
 2. git remote add origin https://github.com/ideyedi/devel-environment.git   
 3. git remote update   
-4. git commit -m "Initialize message"
-5. git fetch --all
-6. git checkout -b main origin/main
-7. chsh -s $(which zsh)
+4. git checkout -b main origin/main
+5. chsh -s $(which zsh)
 - Change shell command
 
 8. sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
