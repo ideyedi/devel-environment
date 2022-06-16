@@ -31,7 +31,7 @@ export ZSH="${HOME}/.oh-my-zsh"
 # Hierarchical Data format Path export
 # pip으로 설치 시, M1 CPU type을 지원하지 않아 Build fail
 # brew로 설치 후 Global하게 brew에서 환경 잡을 수 있도록 처리
-export HDF5_DIR=/opt/homebrew/Cellar/hdf5/1.12.1
+export HDF5_DIR=/opt/homebrew/Cellar/hdf5/1.12.2
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
