@@ -1,3 +1,8 @@
+# 기본 MAC 설정이 없어 export 추가
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+
 # export bin (e.g brew, python, etc..)
 export PATH=/opt/homebrew/bin:$PATH
 
@@ -127,12 +132,6 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# eyedi migration bash
-# some more ls aliases
-#alias ll='ls -lh'
-#alias la='ls -A'
-#alias l='ls -CF'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
