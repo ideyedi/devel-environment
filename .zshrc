@@ -11,13 +11,14 @@ fi
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# pyenv, pyenv-virtualenv path parameter
+# pyenv path parameter
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/shims:$PATH"
+export PATH="$PATH:$PYENV_ROOT/bin"
 
 # pyenv initialize 
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
-# eval "$(pyenv init -)"
+eval "$(pyenv init -)"
 # eval "$(pyenv virtualenv-init -)"
 
 # Path to your oh-my-zsh installation.
