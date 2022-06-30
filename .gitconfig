@@ -7,6 +7,9 @@
 	name = ideyedi
 	email = gdregas18@gmail.com
 [core]
-	editor = /opt/homebrew/bin/vim
+	editor = /usr/bin/vim
 [pull]
 	rebase = false
+
+[includeIf "gitdir: /Users/ideyedi/WeMakePrice/"]
+    path = /Users/ideyedi/WeMakePrice/.gitconfig
