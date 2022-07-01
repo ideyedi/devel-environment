@@ -10,3 +10,6 @@
 	editor = /opt/homebrew/bin/vim
 [pull]
 	rebase = false
+
+[includeIf "gitdir:/Users/we/Workspaces/"]
+    path = /Users/we/Workspaces/.gitconfig
