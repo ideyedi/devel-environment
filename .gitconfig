@@ -11,5 +11,5 @@
 [pull]
 	rebase = false
 
-[includeIf "gitdir: /Users/ideyedi/WeMakePrice/"]
+[includeIf "gitdir:/Users/ideyedi/WeMakePrice/"]
     path = /Users/ideyedi/WeMakePrice/.gitconfig
