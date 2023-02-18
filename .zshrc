@@ -23,7 +23,7 @@ export PATH="$PYENV_ROOT/shims:$PATH"
 # pyenv initialize 
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+#eval "$(pyenv virtualenv-init -)"
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
@@ -31,7 +31,11 @@ export ZSH="${HOME}/.oh-my-zsh"
 # Hierarchical Data format Path export
 # pip으로 설치 시, M1 CPU type을 지원하지 않아 Build fail
 # brew로 설치 후 Global하게 brew에서 환경 잡을 수 있도록 처리
-export HDF5_DIR=/opt/homebrew/Cellar/hdf5/1.12.1
+export HDF5_DIR=/opt/homebrew/Cellar/hdf5/1.12.2
+
+# Flutter Path
+export FULTTER_HOME="/Users/ideyedi/Workspaces"
+export PATH="$PATH:${FULTTER_HOME}/flutter/bin"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -147,3 +151,5 @@ if [ -f ~/.bash_ubiquoss ]; then
     . ~/.bash_ubiquoss
 fi
 
+# Local kube driver 'podman'
+export DOCKER_HOST='unix:///Users/ideyedi/.local/share/containers/podman/machine/podman-machine-default/podman.sock'

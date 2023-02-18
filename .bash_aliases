@@ -19,7 +19,11 @@ alias cta='ctags -R'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
-
+# eyedi migration bash
+# some more ls aliases
+#alias ll='ls -lh'
+#alias la='ls -A'
+#alias l='ls -CF'
 alias ll='ls -ailtrh'
 alias dir='ls -lF'
 alias ..='cd ..'
@@ -29,7 +33,6 @@ alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias .......='cd ../../../../../..'
 
-alias cta='ctags -R'
 # *.py grep
 alias pgrep='find . -name "*.py" | xargs grep --color  -n $1'
 alias chgrep='find . -name "*.[hcC]" |xargs grep --color -n $1'
