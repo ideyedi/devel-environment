@@ -4,7 +4,7 @@
 >> eyedi-env is remote branch name
 
 1. git init 
-2. git remote add origin https://github.com/ideyedi/devel-environment.git   
+2. git remote add origin https://github.com/ideyedi/environment.git   
 3. git remote update   
 4. git checkout -b main origin/main
 5. chsh -s $(which zsh)
